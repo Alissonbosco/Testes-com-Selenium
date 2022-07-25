@@ -79,4 +79,5 @@ public class LoginTest implements Screenshot {
 		Logger.getLogger( info.getDisplayName() ).info( "Closing driver" );
 		WebDriverConfig.killDriver();
 	}
+    
 }
