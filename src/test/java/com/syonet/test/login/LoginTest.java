@@ -42,7 +42,7 @@ public class LoginTest implements Screenshot {
 		assertNotNull( loginPage.errorNotification() );
 	}
 
-    @DisplayName("Testando login Com Senha Errado")
+    @DisplayName("Testando login Com Senha Errada")
     @Test
 	void loginFakePasswordTest() {
 		loginPage.fillUsername( USERNAME )
