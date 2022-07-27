@@ -6,6 +6,8 @@ import com.syonet.pages.Windows.Windows;
 import com.syonet.pages.Windows.WindowsPage;
 import com.syonet.pages.alerts.Alerts;
 import com.syonet.pages.alerts.AlertsPage;
+import com.syonet.pages.delay.Delay;
+import com.syonet.pages.delay.DelayPage;
 import com.syonet.pages.login.Login;
 import com.syonet.pages.login.LoginPage;
 
@@ -29,5 +31,12 @@ public class MainPage implements Main {
     public Windows goToWindows() {
         this.driver.get("http://the-internet.herokuapp.com/windows");
         return new WindowsPage();
+    }
+
+    @Override
+    public Delay goToDelay(){
+        this.driver.get("http://the-internet.herokuapp.com/dynamic_loading");
+        return new DelayPage();
+
     }
 }
