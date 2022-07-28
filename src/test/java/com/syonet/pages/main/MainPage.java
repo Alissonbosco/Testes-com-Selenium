@@ -12,6 +12,8 @@ import com.syonet.pages.frames.Frames;
 import com.syonet.pages.frames.FramesPage;
 import com.syonet.pages.login.Login;
 import com.syonet.pages.login.LoginPage;
+import com.syonet.pages.upload.Upload;
+import com.syonet.pages.upload.UploadPage;
 
 public class MainPage implements Main {
 
@@ -46,5 +48,11 @@ public class MainPage implements Main {
     public Frames goToFrames(){
         this.driver.get("http://the-internet.herokuapp.com/nested_frames");
         return new FramesPage();
+    }
+
+    @Override
+    public Upload goToUpload(){
+        this.driver.get("http://the-internet.herokuapp.com/upload");
+        return new UploadPage();
     }
 }

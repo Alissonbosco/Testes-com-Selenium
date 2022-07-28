@@ -5,6 +5,7 @@ import com.syonet.pages.alerts.Alerts;
 import com.syonet.pages.delay.Delay;
 import com.syonet.pages.frames.Frames;
 import com.syonet.pages.login.Login;
+import com.syonet.pages.upload.Upload;
 
 public interface Main  {
 
@@ -17,5 +18,7 @@ public interface Main  {
     Delay goToDelay();
 
     Frames goToFrames();
+
+    Upload goToUpload();
     
 }
