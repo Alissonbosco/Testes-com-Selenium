@@ -8,6 +8,8 @@ import com.syonet.pages.alerts.Alerts;
 import com.syonet.pages.alerts.AlertsPage;
 import com.syonet.pages.delay.Delay;
 import com.syonet.pages.delay.DelayPage;
+import com.syonet.pages.frames.Frames;
+import com.syonet.pages.frames.FramesPage;
 import com.syonet.pages.login.Login;
 import com.syonet.pages.login.LoginPage;
 
@@ -38,5 +40,11 @@ public class MainPage implements Main {
         this.driver.get("http://the-internet.herokuapp.com/dynamic_loading");
         return new DelayPage();
 
+    }
+
+    @Override
+    public Frames goToFrames(){
+        this.driver.get("http://the-internet.herokuapp.com/nested_frames");
+        return new FramesPage();
     }
 }
