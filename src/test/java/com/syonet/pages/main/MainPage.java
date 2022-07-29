@@ -8,8 +8,12 @@ import com.syonet.pages.alerts.Alerts;
 import com.syonet.pages.alerts.AlertsPage;
 import com.syonet.pages.delay.Delay;
 import com.syonet.pages.delay.DelayPage;
+import com.syonet.pages.draganddrop.DragAndDrop;
+import com.syonet.pages.draganddrop.DragAndDropPage;
 import com.syonet.pages.frames.Frames;
 import com.syonet.pages.frames.FramesPage;
+import com.syonet.pages.large.Large;
+import com.syonet.pages.large.LargePage;
 import com.syonet.pages.login.Login;
 import com.syonet.pages.login.LoginPage;
 import com.syonet.pages.upload.Upload;
@@ -54,5 +58,17 @@ public class MainPage implements Main {
     public Upload goToUpload(){
         this.driver.get("http://the-internet.herokuapp.com/upload");
         return new UploadPage();
+    }
+
+    // @Override
+    // public DragAndDrop goToDragAndDrop(){
+    //     this.driver.get("http://the-internet.herokuapp.com/drag_and_drop");
+    //     return new DragAndDropPage();
+    // }
+
+    @Override
+    public Large goToLarge(){
+        this.driver.get("http://the-internet.herokuapp.com/large");
+        return new LargePage();
     }
 }
