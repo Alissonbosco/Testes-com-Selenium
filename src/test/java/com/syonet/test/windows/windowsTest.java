@@ -8,8 +8,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInfo;
 import org.junit.jupiter.api.TestInstance;
 import com.syonet.driver.WebDriverConfig;
-import com.syonet.pages.Windows.Windows;
 import com.syonet.pages.main.MainPage;
+import com.syonet.pages.windows.Windows;
 import com.syonet.test.utils.Screenshot;
 
 @DisplayName( "Teste das Abas" )

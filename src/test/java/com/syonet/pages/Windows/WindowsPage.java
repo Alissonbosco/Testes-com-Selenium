@@ -1,4 +1,4 @@
-package com.syonet.pages.Windows;
+package com.syonet.pages.windows;
 
 import java.util.Set;
 import org.openqa.selenium.WebDriver;

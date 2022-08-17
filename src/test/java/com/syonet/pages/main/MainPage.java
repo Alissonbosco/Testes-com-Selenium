@@ -2,8 +2,6 @@ package com.syonet.pages.main;
 
 import org.openqa.selenium.WebDriver;
 import com.syonet.driver.WebDriverConfig;
-import com.syonet.pages.Windows.Windows;
-import com.syonet.pages.Windows.WindowsPage;
 import com.syonet.pages.alerts.Alerts;
 import com.syonet.pages.alerts.AlertsPage;
 import com.syonet.pages.delay.Delay;
@@ -16,6 +14,8 @@ import com.syonet.pages.login.Login;
 import com.syonet.pages.login.LoginPage;
 import com.syonet.pages.upload.Upload;
 import com.syonet.pages.upload.UploadPage;
+import com.syonet.pages.windows.Windows;
+import com.syonet.pages.windows.WindowsPage;
 
 public class MainPage implements Main {
 

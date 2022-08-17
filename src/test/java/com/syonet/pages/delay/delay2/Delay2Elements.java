@@ -1,4 +1,4 @@
-package com.syonet.pages.delay;
+package com.syonet.pages.delay.delay2;
 
 import org.openqa.selenium.By;
 

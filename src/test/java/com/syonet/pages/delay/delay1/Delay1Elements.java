@@ -1,10 +1,10 @@
-package com.syonet.pages.delay;
+package com.syonet.pages.delay.delay1;
 
 import org.openqa.selenium.By;
 
 public class Delay1Elements {
     
-    protected static final By startButton = By.xpath("//button['Start']");
+    public static final By startButton = By.xpath("//button['Start']");
     
     protected static final By textValidation = By.id("finish");
 

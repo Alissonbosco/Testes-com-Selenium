@@ -1,4 +1,4 @@
-package com.syonet.pages.delay;
+package com.syonet.pages.delay.delay2;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.time.Duration;
@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import com.syonet.driver.WebDriverConfig;
+import com.syonet.pages.delay.delay1.Delay1Elements;
 
 public class Delay2Page implements Delay2 {
 

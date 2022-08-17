@@ -1,4 +1,4 @@
-package com.syonet.pages.Windows;
+package com.syonet.pages.windows;
 
 import org.openqa.selenium.By;
 

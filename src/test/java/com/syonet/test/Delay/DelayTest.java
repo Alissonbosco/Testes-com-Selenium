@@ -1,4 +1,4 @@
-package com.syonet.test.Delay;
+package com.syonet.test.delay;
 
 import java.util.logging.Logger;
 import org.junit.jupiter.api.AfterAll;

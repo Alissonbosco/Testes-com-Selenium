@@ -1,4 +1,4 @@
-package com.syonet.pages.delay;
+package com.syonet.pages.delay.delay1;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.time.Duration;

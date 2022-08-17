@@ -1,4 +1,4 @@
-package com.syonet.pages.delay;
+package com.syonet.pages.delay.delay2;
 
 public interface Delay2 {
 

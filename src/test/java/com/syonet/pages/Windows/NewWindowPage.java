@@ -1,4 +1,4 @@
-package com.syonet.pages.Windows;
+package com.syonet.pages.windows;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.openqa.selenium.By;
