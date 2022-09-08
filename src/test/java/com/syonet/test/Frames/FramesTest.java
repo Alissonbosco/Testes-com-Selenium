@@ -1,4 +1,4 @@
-package com.syonet.test.Frames;
+package com.syonet.test.frames;
 
 import java.util.logging.Logger;
 import org.junit.jupiter.api.AfterAll;
